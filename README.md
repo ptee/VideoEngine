@@ -1,5 +1,5 @@
 # (VideoEngine) viden -- A small video engine library 
-A library to handle a separate video/image processing and GUI in separate threads. It integrates OpenCV (to render the image/video) and Qt for GUI.
+A small library to handle a separate video/image processing and GUI in separated threads. It integrates OpenCV (to render the image/video) and Qt for GUI.
 
 # Requirements:
 * Qt5
