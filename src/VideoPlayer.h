@@ -77,16 +77,16 @@ public:
 
      //! Get index of current frame
      int getCurrentFrame() const;
-      int _getCurrentFrame() const;
-
+     
 
      //! Number of frames in the video file
      int getNumberOfFrames() const;
-     int _getNumberOfFrames() const;
+     
+     //! Set speed of the player
+     void setSpeed(Speed speed);
 
-      void setSpeed(Speed speed);
-
-      inline const cv::Mat& getRawFrame() const {
+     //! Get current video/image frame
+     inline const cv::Mat& getRawFrame() const {
 
           return m_frame;
       }
